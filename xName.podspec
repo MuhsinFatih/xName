@@ -1,16 +1,8 @@
-#
-# Be sure to run `pod lib lint xName.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'xName'
   s.version          = '0.2.0'
   s.swift_version    = '3.2'
-  s.summary          = 'Allows accessing UI elements with an identifier'
+  s.summary          = 'Allows accessing UI elements with identifier'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -19,12 +11,8 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
-kaljdgfsg
-hsf
-dhjghgf
-jg
-k
-hjk
+Tired of creating IBOutlets every time you want to access a UI element? Then don't!
+Instead use Accessibility Identifier to access UIViews!
 
                        DESC
 
