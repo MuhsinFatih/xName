@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'xName'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.swift_version    = '3.2'
   s.summary          = 'Allows accessing UI elements with identifier'
 # This description is used to generate tags and improve search results.
