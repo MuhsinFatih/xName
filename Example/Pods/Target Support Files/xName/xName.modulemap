@@ -1,0 +1,6 @@
+framework module xName {
+  umbrella header "xName-umbrella.h"
+
+  export *
+  module * { export * }
+}

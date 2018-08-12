@@ -1,0 +1,22 @@
+{
+  "name": "xName",
+  "version": "0.1.0",
+  "summary": "A short description of xName.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muhsinfatih@gmail.com/xName",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muhsinfatih@gmail.com": "muhsinfatih@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/muhsinfatih@gmail.com/xName.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "xName/Classes/**/*"
+}
