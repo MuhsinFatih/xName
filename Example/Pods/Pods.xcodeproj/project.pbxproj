@@ -34,7 +34,7 @@
 		42EAAE8CFB95F2352FCE036F263263E1 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D1429ABADDB303927AEA89A830C740 /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		45F183320C688F9978649F30ABE21D09 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEA5EE84902B2868710A17C747AE0E /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4CDACD8A5A6CFB688838AA988E7D1E43 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C7C0F330B57E3287FCFAF89776AF4F /* Nimble-dummy.m */; };
-		4E3B3B572120740000C10B0D /* xName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B3B562120740000C10B0D /* xName.swift */; };
+		4E3B3B5D21207E0F00C10B0D /* xName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B3B5C21207E0F00C10B0D /* xName.swift */; };
 		4FABBF5CA8F735F48035BE4144613CB7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CC71E572C5CC14ADFA82A8B7B97DC /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4FF67FB9F13099B71AEDECDD8DB229D9 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452C5F4B63A4A0178E56CDC9E95DFE8 /* ExampleMetadata.swift */; };
 		5497C60712AC44855355E0B2BC51791C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
@@ -201,7 +201,7 @@
 		4751C923ACB051055F76821461557965 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		47578CD4C4970729A947555C915B2317 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		495BFC3F9A44D525D4BFC5B10557E6C3 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
-		4E3B3B562120740000C10B0D /* xName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xName.swift; sourceTree = "<group>"; };
+		4E3B3B5C21207E0F00C10B0D /* xName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = xName.swift; path = xName/Classes/xName.swift; sourceTree = "<group>"; };
 		4FEA1DF1C7C22E7B20D2DC30FB9D3EF1 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		52DD67031842DB7B289F90D044C94FC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5378FB44B13DD72D6D9510C786BA96C5 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
@@ -362,7 +362,6 @@
 			children = (
 				91EC2FE455E4E282BA41D830764A3F05 /* Pod */,
 				C53DF9D6257FC5B954E542C53BBE9804 /* Support Files */,
-				4E3B3B562120740000C10B0D /* xName.swift */,
 			);
 			name = xName;
 			path = ../..;
@@ -547,6 +546,7 @@
 		91EC2FE455E4E282BA41D830764A3F05 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				4E3B3B5C21207E0F00C10B0D /* xName.swift */,
 				04A30CF543B44DA9773ABFDCC0DF1E60 /* LICENSE */,
 				235FF80CEC1C41E1FEF23F7A8375A6C5 /* README.md */,
 				F8E867E3CAB1CCA7E92515CBF2E9B1C7 /* xName.podspec */,
@@ -941,7 +941,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC8515C8313A30A568F64ADE7CB1D0E /* xName-dummy.m in Sources */,
-				4E3B3B572120740000C10B0D /* xName.swift in Sources */,
+				4E3B3B5D21207E0F00C10B0D /* xName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

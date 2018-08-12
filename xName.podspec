@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xName'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of xName.'
-
+  s.version          = '0.2.0'
+  s.swift_version    = '3.2'
+  s.summary          = 'Allows accessing UI elements with an identifier'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -19,24 +19,24 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+kaljdgfsg
+hsf
+dhjghgf
+jg
+k
+hjk
+
                        DESC
 
-  s.homepage         = 'https://github.com/muhsinfatih@gmail.com/xName'
+  s.homepage         = 'https://github.com/MuhsinFatih/xName'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'muhsinfatih@gmail.com' => 'muhsinfatih@gmail.com' }
-  s.source           = { :git => 'https://github.com/muhsinfatih@gmail.com/xName.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MuhsinFatih/xName.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'xName/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'xName' => ['xName/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'xName/Classes/*swift'
+  s.frameworks = 'UIKit'
 end
